@@ -1,5 +1,5 @@
-﻿# semana-omnistack-11
-
+﻿### Be the hero
+The project was built on omnistack week of Rocketseat
 
 ### For execute in your machine
 <pre>
