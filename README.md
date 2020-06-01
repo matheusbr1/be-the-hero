@@ -1,6 +1,8 @@
 ﻿### Be the hero
 The project was built on omnistack week of Rocketseat
+<br>
 
+![be-the-hero](https://user-images.githubusercontent.com/28275815/83414469-fb7ee800-a3f3-11ea-9ddf-26513c1b9bf4.png)
 ### For execute in your machine
 <pre>
 
@@ -10,10 +12,10 @@ $ yarn install
 On backend folder
 $ yarn start
 
-On frontend folder execute
+On frontend folder
 $ yarn start
 
-On mobile folder execute
+On mobile folder
 $ yarn start
 
 </pre>
