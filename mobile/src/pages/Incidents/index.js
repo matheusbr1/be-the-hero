@@ -38,10 +38,9 @@ export default function Incidents () {
             }
         })
         
-        setIncidents([...incidents, ...response.data]) /* Anexando os dados existentes com os retornados da API */
         setTotal(response.headers['x-total-count'])
+        setIncidents([...incidents, ...response.data]) /* Anexando os dados existentes com os retornados da API */
         setPage(page+1)
-
         setLoading(false)
     }
 
@@ -66,10 +65,10 @@ export default function Incidents () {
                 style={styles.incidentList}
                 keyExtractor={incident => String(incident.id)}
                 data={incidents} /* Array de Dados que compoem a lista */
-                showsVerticalScrollIndicator={false}
+                // showsVerticalScrollIndicator={false}
 
                 onEndReached={loadIncidents}  // Propriedade que recebe uma função que é disparada quando o usuário chegar no final da lista
-                onEndReachedThreshold={0.2} // Propriedade que diz em qual percentual ( de 0 a 1  ) novos itens serão carregados
+                onEndReachedThreshold={0.1} // Propriedade que diz em qual percentual ( de 0 a 1  ) novos itens serão carregados
 
                 renderItem={( {item: incident } ) => (
 
