@@ -1,6 +1,6 @@
 ﻿### Be the hero
-The project was built on omnistack week of Rocketseat
-<br>
+
+This is a ONGs application, the project was built on omnistack week of Rocketseat!
 
 ![be-the-hero](https://user-images.githubusercontent.com/28275815/83414469-fb7ee800-a3f3-11ea-9ddf-26513c1b9bf4.png)
 ### For execute in your machine
